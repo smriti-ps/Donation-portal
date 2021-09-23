@@ -9,8 +9,8 @@ from donate import __version__ as version
 setup(
 	name='donate',
 	version=version,
-	description='portal for making donations',
-	author='chezuba',
+	description='A portal for donation',
+	author='ex@chezuba.net',
 	author_email='ex@chezuba.net',
 	packages=find_packages(),
 	zip_safe=False,
