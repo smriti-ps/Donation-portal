@@ -1,6 +1,6 @@
 ## Donate
 
-A portal for donation
+portal for making donations
 
 #### License
 

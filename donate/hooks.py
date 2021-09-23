@@ -3,10 +3,10 @@ from . import __version__ as app_version
 app_name = "donate"
 app_title = "Donate"
 app_publisher = "chezuba"
-app_description = "A portal for donation"
+app_description = "portal for making donations"
 app_icon = "octicon octicon-file-directory"
 app_color = "grey"
-app_email = "abc@chezuba.net"
+app_email = "ex@chezuba.net"
 app_license = "MIT"
 
 # Includes in <head>
