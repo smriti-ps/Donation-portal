@@ -1,0 +1,68 @@
+{
+ "cards_label": "Other Links",
+ "category": "Modules",
+ "charts": [],
+ "creation": "2021-09-27 07:35:44.864678",
+ "developer_mode_only": 0,
+ "disable_user_customization": 0,
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "extends_another_page": 0,
+ "hide_custom": 0,
+ "icon": "fa-paint-brush",
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "label": "Donation Module",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Reports",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Donation Report",
+   "link_to": "Donations_report",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "List",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Donations",
+   "link_to": "Donations",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2021-09-27 16:58:10.070303",
+ "modified_by": "Administrator",
+ "module": "Donate",
+ "name": "Donation Module",
+ "owner": "Administrator",
+ "pin_to_bottom": 1,
+ "pin_to_top": 0,
+ "shortcuts": [
+  {
+   "doc_view": "New",
+   "label": "New Donation",
+   "link_to": "Donations",
+   "type": "DocType"
+  }
+ ]
+}

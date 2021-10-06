@@ -1,0 +1,31 @@
+{
+ "attach_print": 0,
+ "channel": "Email",
+ "condition": "",
+ "creation": "2021-10-04 15:34:10.449861",
+ "days_in_advance": 0,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "Donations",
+ "enabled": 1,
+ "event": "New",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "Thank you {{doc.name}} for your contribution!!\nWe recieved {{doc.amount}} ruppees",
+ "modified": "2021-10-04 16:47:05.551213",
+ "modified_by": "Administrator",
+ "module": "Donate",
+ "name": "Contribution received",
+ "owner": "Administrator",
+ "recipients": [
+  {
+   "receiver_by_document_field": "owner"
+  }
+ ],
+ "send_system_notification": 1,
+ "send_to_all_assignees": 1,
+ "sender": "Factual Opinionist",
+ "sender_email": "factual.opinionist@gmail.com",
+ "subject": "We received {{ doc.amount }}!!",
+ "value_changed": "workflow_state"
+}
