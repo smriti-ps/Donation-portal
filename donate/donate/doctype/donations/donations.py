@@ -24,10 +24,12 @@ class Donations(Document):
 		frappe.msgprint(message+str(all_division))
 
 def send_mail(all_division,amount,user):
-	# recipients=[]
-	# for mails in all_division:
-	# 	recipients.append(mails[0])
-	recipients=['smriti@chezuba.net']
+
+	# frappe.sendmail() function not working properly.
+	recipients=[]
+	for mails in all_division:
+		recipients.append(mails[0])
+	#recipients=['smriti@chezuba.net']
 	frappe.sendmail(
 		recipients=recipients,
 		sender='factual.opinionist@gmail.com',
